@@ -1,0 +1,46 @@
+doctype html
+html
+  head
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      
+       div.logo
+         img(src="../static/logo3.png", alt="error")
+         |VDA
+       ul#list
+       li #[a(href="/") Home]
+       li #[a(href="/")  About]
+       li #[a(href="/")  Services]
+       li #[a(href="/")  Class info]
+       li #[a(href="/")  Contact Us]
+    section#introduction
+       div.text
+         p Join the best dance academy
+         p Eat-Dance-Sleep-Repeat
+       
+    section#mission
+      p Our Mission
+        div.box
+          div.missionbox 
+            | Dance Perfection
+            img(src="../static/logo1.jpg", alt="")
+          div.missionbox  
+            | Dance the way you like
+            img(src="../static/logo2.png", alt="")
+          div.missionbox  
+            | Expert teaching
+            img(src="../static/logo3.png", alt="")
+    section#sponsor
+      | our sponsors
+      div#sponsormainbox
+        img#id1(src="../static/sp1.png", alt="")      
+        img#id2(src="../static/sp2.jpg  ", alt="") 
+        img#id3(src="../static/sp3.png", alt="")     
+    footer#foot
+       | Copyrights 2020 virmani | all rights reserved          
+    script
+      include ../static/index.js
